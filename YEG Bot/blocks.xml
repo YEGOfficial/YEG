@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_login" id="{^piLi({bC?#PxQ*1?cV" x="266" y="40">
+    <value name="TOKEN">
+      <block type="text" id="gQt6M+qtFfd+V,9_=yb{">
+        <field name="TEXT">ODcxMzA1NzIwNzUzMTgwNzMy.YQZYrw.Wk0bZmSTxTLgCQ57nX1bpLnKv-o</field>
+      </block>
+    </value>
+  </block>
+  <block type="s4d_on_message" id="meviNCTB}!|#5D7]1=zf" x="153" y="147">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id=":LZ$pkv(to=BjpC8;+bK">
+        <value name="IF0">
+          <block type="logic_compare" id="?ej4rew=x4vWmE#AGUFK">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="6J~6fi]I#U:WaNDw}sZ|"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="=UJ{$V4%]KR_ueriU4Xb">
+                <field name="TEXT">"Naber</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="YIEo{m9oL`wZNMOqZ/w4">
+            <value name="CONTENT">
+              <shadow type="text" id="IFK]5{/[qw;%V3ntjz,*">
+                <field name="TEXT">Unus</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
